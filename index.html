@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body id="backgrnd">
+    <h1 style="color: white;font-size:50px;text-align: center;text-decoration:underline">CALCULATOR</h1>
+    <p style="text-align: center;color: white;">Design by Naba</p>
+    <script src="calculator.js"></script>
+    <br><br><br>
+    <div style="background-color: seagreen; height:70px;padding-top:1%;text-align:center">
+    <button id="clear"onclick="clears('')"style="width:40%">Clear</button>
+    <button style="width:40%" onclick="del(' ')">Delete</button>
+    
+    </div>
+    <br><br><br><br>
+
+    <input style="height:5%;font-size:40px"id="display"type="text"></input><br><br>
+   <div class="btns">
+   <button id="seven" onclick="sevn('7')">7</button>        
+ <button  id="eight" onclick="eght('8')">8</button>
+ <button  id="nine" onclick="nin('9')">9</button>
+  <button id="plus" onclick="pls('+')">+</button>
+  
+  
+  <br>
+  <button id="four" onclick="fur('4')">4</button>        
+ <button id="five" onclick="fve('5')">5</button>
+ <button id="Six" onclick="sx('6')">6</button>
+  <button id="minus" onclick="mnus('-')">-</button>
+  
+  <br>
+  <button id="one" onclick="one('1')">1</button>        
+ <button id="two" onclick="two('2')">2</button>
+ <button id="three" onclick="three('3')">3</button>
+  <button id="*" onclick="mul('*')">*</button>
+ 
+  <br>
+  <button id="zero" onclick="zero('0')">0</button>        
+ <button id="decimal" onclick="decimal('.')">.</button>
+ <button id="equals" onclick="equals('=')">=</button>
+  <button id="divide" onclick="divide('/')">/</button><br>
+   <button id="remainder" style="width:80%;" onclick="remainder('%')">%</button>
+   
+ 
+  
+  
+
+  </div>
+          
+</body>
+</html>

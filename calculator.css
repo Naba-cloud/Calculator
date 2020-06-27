@@ -1,0 +1,25 @@
+body{
+    background-color: royalblue;
+}
+
+input{
+    width:100%;
+}
+button{
+    width: 20%;
+    
+    
+    text-align: center;
+   
+    /* padding-top:1%; */
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+.btns
+{
+  background-color: lightgreen;
+  /* height:220px; */
+  width: 100%;
+ 
+}
